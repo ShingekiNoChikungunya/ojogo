@@ -69,6 +69,46 @@ Quantidade: Numero de objeções restantes
 
 ```
 
+## Exemplo de Round
+```
+Inicio de mediação:
+Acusacao: Ronaldinho Gaúcho foi encontrado com cigarro no paraguai
+Acusado: Ronaldinho Gaúcho
+Promotor: Hebe Camargo
+Argumento: Ronaldinho foi encontrado dentro de um monza 1984 com 1000 cigarros atravessando a fronteira
+Permissao: ataque
+Palavras chave no argumento: [Ronaldinho, Cigarro, Paraguai, Monza, 1984]
+Quantidade Chave no Argumento: [1000, 1984]
+Terceiros: [Polícia Federal]
+ObjecaoQuantidade: 3
+CondicaoVitoria: 3 rounds
+
+Mensagem de ataque (parseia as mensagens anteriores e adiciona mais coisas):
+Argumento: O safado do ronaldinho foi encontrado com cigarro, monza e muitos homens pelados na fronteira do Paraguai.
+Palavras chave no argumento: [Cigarro, Monza, Homens Pelados, Paraguai, Safado]
+Quantidade Chave no Argumento: []
+Terceiros: [Homens pelados]
+
+Mensagem de defesa (parseia as mensagens anteriores e adiciona mais coisas, sempre acumulativo vendo todas as mensagens anteriores):
+Argumento: Não existiam Homens pelados, o cigarro era mentira, o Paraguai não existe. O ataque quer tirar dinheiro do Safado. Hebe Camargo fugiu para o Paraguai
+Palavras chave no argumento: [Mentiras]
+Quantidade Chave no Argumento: [0]
+Terceiros: [Habe Camargo]
+
+Recebimento de mediação:
+Argumento: Vamo ver, o bixo está pegando!!!
+Palavras chave no argumento: [todos as palavras chaves anteriores sem repetição]
+Quantidade Chave no Argumento: [todos os números anteriores sem repetição]
+Terceiros: [todos os terceiros envolvidos]
+Ganho: 180s para discussão e apoio de algum lado. Humanos lêem os argumentos e votam em qual gostaram mais
+
+PESSOAS VÃO VOTAR COM: Ataque/Defesa, voto único, vale o último.
+
+Resultado de mediação:
+Argumento: Lado ataque ganhou
+Permissao: Defesa
+```
+
 ## Premiação
 
 (350x250x3mm)[https://www.aliexpress.com/item/1005002491798093.html]
