@@ -1,7 +1,8 @@
 # O JOGO
 
 ```
-stack init
+sudo pacman -Syu stack
+stack install
 stack build
 stack run
 ```
