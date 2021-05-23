@@ -80,8 +80,8 @@ Permissao: ataque
 Palavras chave no argumento: [Ronaldinho, Cigarro, Paraguai, Monza, 1984]
 Quantidade Chave no Argumento: [1000, 1984]
 Terceiros: [Polícia Federal]
-ObjecaoQuantidade: 3
-CondicaoVitoria: 3 rounds
+ObjecaoQuantidade: 1
+CondicaoVitoria: 2 rounds
 
 Mensagem de ataque (parseia as mensagens anteriores e adiciona mais coisas):
 Argumento: O safado do ronaldinho foi encontrado com cigarro, monza e muitos homens pelados na fronteira do Paraguai.
@@ -96,6 +96,7 @@ Quantidade Chave no Argumento: [0]
 Terceiros: [Habe Camargo]
 
 Recebimento de mediação:
+~ espera de 15s para esta mensagem, pois podem acontecer objeções
 Argumento: Vamo ver, o bixo está pegando!!!
 Palavras chave no argumento: [todos as palavras chaves anteriores sem repetição]
 Quantidade Chave no Argumento: [todos os números anteriores sem repetição]
